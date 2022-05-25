@@ -71,7 +71,7 @@ body {
 button {
     position: absolute;
     background-color: rgb(255, 223, 65);
-    font-size: 1.5vw;
+    font-size: 3vw;
     color: rgb(255, 223, 65);
 }
 </style>
