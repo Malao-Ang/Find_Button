@@ -38,7 +38,7 @@
 export default {
     data() {
         return {
-            text: "🔎 Find the Button 🔎",
+            text: "🔎 The button is on the pizza face, Find it. 🔎",
         };
     },
     methods: {
@@ -67,11 +67,11 @@ div{
 }
 h1 {
     font-family: "Mitr", sans-serif;
-    font-size: 6vw;
+    font-size: 4vw;
 }
 h2 {
     font-family: "Mitr", sans-serif;
-    font-size: 4vw;
+    font-size: 2vw;
 }
 .pizza {
     position: relative;

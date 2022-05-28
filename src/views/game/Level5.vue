@@ -70,8 +70,8 @@ body {
     /* background-color:#fff; */
 }
 button a {
-    color: rgb(25, 23, 25);
-    border: 2px solid rgb(25, 23, 25);
+    color: rgb(17, 15, 17);
+    border: 2px solid rgb(17, 15, 17);
     border-radius: 10%;
     padding: 10px;
 }

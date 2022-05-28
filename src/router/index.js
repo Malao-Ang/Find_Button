@@ -96,15 +96,15 @@ const routes = [{
         component: () =>
             import ( /* webpackChunkName: "about" */ '../views/game/Level8.vue')
     },
-    // {
-    //     path: '/game/level-9',
-    //     name: 'level9',
-    //     // route level code-splitting
-    //     // this generates a separate chunk (about.[hash].js) for this route
-    //     // which is lazy-loaded when the route is visited.
-    //     component: () =>
-    //         import ( /* webpackChunkName: "about" */ '../views/game/Level9.vue')
-    // },
+    {
+        path: '/game/level-9',
+        name: 'level9',
+        // route level code-splitting
+        // this generates a separate chunk (about.[hash].js) for this route
+        // which is lazy-loaded when the route is visited.
+        component: () =>
+            import ( /* webpackChunkName: "about" */ '../views/game/Level9.vue')
+    },
     // {
     //     path: '/game/level-10',
     //     name: 'level10',

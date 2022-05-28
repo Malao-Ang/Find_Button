@@ -9,17 +9,18 @@
 	<body>
 		<div class=" description ">
 			<h1>Level 7</h1><br>
-			<h2 class="animate-bounce">🔍 Where is the button? 🔍</h2>
-			<h2>{{time}}</h2>
+			<h2 class="animate-bounce">🔍 Apple is a button Let's find a button. 🔍</h2>
 		</div>
 		<div class="cloud">
 			<img src="@/assets/img/clound.png">
 			<img src="@/assets/img/clound.png">
 		</div>
 		<div class="tree">
-			<button @click="count"><img src="@/assets/img/tree.png"></button>
+			<button id="tree" @click="count"><img src="@/assets/img/tree.png"></button>
 			
-			<button v-if="time >= 10"><img class="apple" src="@/assets/img/apple.png"></button>
+			<button v-if="time >= 10" class="btn-apple" >
+				<a href="/game/level-9"><img id="apple" src="@/assets/img/apple.png"></a>
+			</button>
 		</div>
 		<div class="ground"></div>
 	</body>
@@ -94,10 +95,13 @@ body{
 	width:100vw;
 	height:15vh;
 }
-.tree button:active{
+.tree #tree:active{
 	transform: translateX(-10px);
 }
-.apple{
+.cloud button:active{
+	transform: translateY(-10px);
+}
+#apple{
 	position:absolute;
 	width:5.5vw;
 	height:6vw;
@@ -105,4 +109,5 @@ body{
 	left:55vw;
 
 }
+
 </style>
