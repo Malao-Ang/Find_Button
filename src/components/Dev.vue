@@ -8,11 +8,11 @@
         referrerpolicy="no-referrer"
     />
     <table>
-        <h2>Developer</h2>
+        <h2 style="margin-top:20px;">Developer</h2>
         <tr>
             <td>
                 <img
-                    src="https://scontent.fbkk22-6.fna.fbcdn.net/v/t39.30808-6/279253602_1716037168739396_4993323625495401844_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeHXa0XTgsXIn9-VShI0dnfizclg15SqtVjNyWDXlKq1WO44Tav7zEgt5Lh3lQ45ShRerl2dfUqCJkHLnulf7VL3&_nc_ohc=HdsUXBOUazEAX_yBcIm&tn=lUtRPMW3iEuORee0&_nc_ht=scontent.fbkk22-6.fna&oh=00_AT_2Wu0doQcagV1YpxVgM6BtlmOpKgwFWJWIUYsyT_sYOg&oe=62907514"
+                    src="https://scontent.fbkk29-1.fna.fbcdn.net/v/t39.30808-6/284313925_1740616196281493_4970167100453928254_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeGBgU8-K4f9DLEvoHRHNxigBtMdpzN776QG0x2nM3vvpCXjzJK7oVw1XC-HinatpZEsuI_zSzk2C5xSkgsHnYBj&_nc_ohc=MqYsJqM_PbgAX_QrlSR&_nc_ht=scontent.fbkk29-1.fna&oh=00_AT-IQJLnKcUAnPJ2Lxn2c5oOkUOxTyTrhodnnkIaT4NFwA&oe=6294E549"
                 />
             </td>
             <td>
@@ -41,7 +41,7 @@
             </td>
         </tr>
 
-        <h2>Game Designer</h2>
+        <h2 style="margin-left:40px;">Game Designer</h2>
         <tr>
             <td>
                 <img
@@ -50,19 +50,42 @@
             </td>
             <td>
                 <h1>Kaewkanlaya Marasri</h1>
+                
             </td>
         </tr>
         <tr>
             <td>
             <img
-                    src="https://scontent.fbkk22-6.fna.fbcdn.net/v/t39.30808-6/279253602_1716037168739396_4993323625495401844_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeHXa0XTgsXIn9-VShI0dnfizclg15SqtVjNyWDXlKq1WO44Tav7zEgt5Lh3lQ45ShRerl2dfUqCJkHLnulf7VL3&_nc_ohc=HdsUXBOUazEAX_yBcIm&tn=lUtRPMW3iEuORee0&_nc_ht=scontent.fbkk22-6.fna&oh=00_AT_2Wu0doQcagV1YpxVgM6BtlmOpKgwFWJWIUYsyT_sYOg&oe=62907514"
+                    src="@/assets/img/heheboi.jpg"
                 />
             </td>
             <td>
-                <h1>Kaewmanee Marsri</h1>
+                <h1>Kaewmanee Marsri 2</h1>
+                <button class="link-icon">
+                        <a
+                            href="https://github.com/Malao-Ang"
+                            target="_blank"
+                        ><i class="fa-brands fa-github fa-lg" @click="aleart"></i></a>
+                    
+                </button>
+                <button class="link-icon" >
+                        <a
+                            href="https://www.instagram.com/malao_2357/"
+                            target="_blank">
+                    <i class="fa-brands fa-instagram fa-lg" @click="aleart"></i>
+					</a>
+                </button>
+                <button class="link-icon">
+                        <a
+                            href="https://www.youtube.com/channel/UCm03p8JqLg8tsljn0L4FfHg" target="_blank">
+                    <i class="fa-brands fa-youtube fa-lg" @click="aleart"></i>
+					</a>
+                </button>
             </td>
         </tr>
     </table>
+    <br>
+    <br>
 </div>
     
 </template>

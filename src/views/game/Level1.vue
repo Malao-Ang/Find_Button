@@ -1,11 +1,22 @@
 <template>
     <head>
+        <link
+        href="https://cdn.jsdelivr.net/npm/daisyui@2.15.0/dist/full.css"
+        rel="stylesheet"
+        type="text/css"
+    />
+    <link
+        href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2/dist/tailwind.min.css"
+        rel="stylesheet"
+        type="text/css"
+    />
         <title>Level 1</title>
     </head>
-    <body>
-        <div class="description">
-            <h1>Level 1</h1>
-            <h2>🔍 Find the button 🔍</h2>
+    <body >
+        <div class=" description ">
+                <h1>Level 1</h1><br>
+                <h2 class="animate-bounce">🔍 Find the button 🔍</h2>
+                
         </div>
         <div class="find">
             <button id="nextGame"  :style="[RandomX, RandomY]" @click="Clicked">
@@ -17,8 +28,10 @@
 
 
 <script>
+
 import BgLikeButton from '@/components/BgLikeButton.vue';
 const buttonLoc = document.getElementById("nextGame");
+
 export default {
 	data() {
 		return {
@@ -58,6 +71,7 @@ body {
     height: 100vh;
 	background-color:rgb(235, 89, 110);
 }
+
 .description h1 {
     font-family: "Mitr", sans-serif;
     font-size: 6vw;

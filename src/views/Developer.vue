@@ -14,7 +14,7 @@ export default {
 
 <style>
 .dev{
-    background-color: rgb(18, 16, 19);
+    background-color:#A2D2FF;
     display: flex;
 }
 </style>

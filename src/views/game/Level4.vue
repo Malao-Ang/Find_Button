@@ -3,8 +3,8 @@
         <title>Level 4</title>
     </head>
     <body id="level4">
-        <h1>Level 4</h1>
-        <h1 id="text">{{ text }}</h1>
+        <h1 >Level 4</h1>
+        <h1 class="animate-bounce" id="text">{{ text }}</h1>
 		<div>
 			<div class="pizza">
             <p @click.prevent="notHere" class="papergreen"></p>
@@ -20,7 +20,7 @@
             <p @click.prevent="notHere" class="peperrony four"></p>
             <p @click.prevent="notHere" class="peperrony five"></p>
             <button>
-                <a href="/"><p class="peperrony six"></p></a>
+                <a href="/game/level-5"><p class="peperrony six"></p></a>
             </button>
             <p @click.prevent="notHere" class="peperrony seven"></p>
             <p @click.prevent="notHere" class="peperrony eight"></p>

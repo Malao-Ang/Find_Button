@@ -5,7 +5,7 @@
     <body>
         <div class="row">
             <h1>Level 3</h1>
-            <h2>Find the button</h2>
+            <h2 class="animate-bounce">Find the button</h2>
             <div class="column">
                 <div class="wrapper">
                     <img src="@/assets/img/KIm.jpg" alt="Kim" />

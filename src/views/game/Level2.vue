@@ -2,10 +2,10 @@
      <head>
         <title>Level 2 🔍</title>
     </head>
-    <body>
+    <body class="ping-ping">
         <div class="description">
             <h1>Level 2</h1>
-            <h2>🔍 Find the button 🔍</h2>
+            <h2 class="animate-bounce">🔍 Find the button 🔍</h2>
         </div>
         <div class="find">
             <button id="nextGame"  :style="[RandomX, RandomY]" @click="Clicked">
@@ -66,7 +66,7 @@ export default {
 }
 body {
     height: 100vh;
-    background-color:rgb(255, 226, 39);
+    background-color:rgb(255, 230, 64);
 }
 button {
     position: absolute;

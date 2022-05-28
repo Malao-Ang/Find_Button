@@ -13,9 +13,9 @@
                 <a class="btn btn-ghost normal-case text-xl" href="/">Find Button</a>
             </div>
             <div class="flex-none">
-                <ul class="menu menu-horizontal p-0">
+                <ul class="menu menu-horizontal p-0 hover:scale-y-125">
+                    <li><a href="/game/level-1" style="color:aquamarine;">Play Game</a></li>
                     <li><a href="/dev">Developer</a></li>
-                    <li><a href="/game/level-1">Play Game</a></li>
                     <li><a>Donate</a></li>
                 </ul>
             </div>
@@ -33,7 +33,6 @@ export default {
 @import url("https://fonts.googleapis.com/css2?family=Mitr&display=swap");
 *{
 		background-color: rgb(18, 16, 19);
-		
 	}
 .navbar{
 	padding:0;
