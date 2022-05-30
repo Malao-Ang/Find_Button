@@ -41,7 +41,6 @@ export default {
 <style>
 body {
 	height: 150vh;
-	background-color: #FF865E;
 }
 
 .description h1 {
