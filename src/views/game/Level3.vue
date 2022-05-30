@@ -150,7 +150,7 @@ img {
 	border-radius: 40px;
 }
 /* Door swing effect */
-.wrapper:hover #left-door {
+.wrapper:hover #left-door,.wrapper:active #left-door {
     transform: rotateY(-140deg);
 }
 
