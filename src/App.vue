@@ -15,11 +15,13 @@
 import Home from '@/views/Start.vue'
 import Developer from './views/Developer.vue'
 import Nav from './components/nav.vue'
+import Donate from '@/views/Donate.vue'
 export default {
   components:{
     Home,
     Developer,
-    Nav
+    Nav,
+    Donate,
 }
 }
 </script>

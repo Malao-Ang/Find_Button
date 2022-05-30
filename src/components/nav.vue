@@ -16,7 +16,7 @@
                 <ul class="menu menu-horizontal p-0 hover:scale-y-125">
                     <li><a href="/game/level-1" style="color:aquamarine;">Play Game</a></li>
                     <li><a href="/dev">Developer</a></li>
-                    <li><a>Donate</a></li>
+                    <li><a href="/donate">Donate</a></li>
                 </ul>
             </div>
         </div>

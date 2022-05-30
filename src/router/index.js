@@ -105,15 +105,33 @@ const routes = [{
         component: () =>
             import ( /* webpackChunkName: "about" */ '../views/game/Level9.vue')
     },
-    // {
-    //     path: '/game/level-10',
-    //     name: 'level10',
-    //     // route level code-splitting
-    //     // this generates a separate chunk (about.[hash].js) for this route
-    //     // which is lazy-loaded when the route is visited.
-    //     component: () =>
-    //         import ( /* webpackChunkName: "about" */ '../views/game/Level10.vue')
-    // }
+    {
+        path: '/game/level-10',
+        name: 'level10',
+        // route level code-splitting
+        // this generates a separate chunk (about.[hash].js) for this route
+        // which is lazy-loaded when the route is visited.
+        component: () =>
+            import ( /* webpackChunkName: "about" */ '../views/game/Level10.vue')
+    },
+    {
+        path: '/thank-you',
+        name: 'thank-you',
+        // route level code-splitting
+        // this generates a separate chunk (about.[hash].js) for this route
+        // which is lazy-loaded when the route is visited.
+        component: () =>
+            import ( /* webpackChunkName: "about" */ '@/views/EndPage.vue')
+    },
+    {
+        path: '/donate',
+        name: 'donate',
+        // route level code-splitting
+        // this generates a separate chunk (about.[hash].js) for this route
+        // which is lazy-loaded when the route is visited.
+        component: () =>
+            import ( /* webpackChunkName: "about" */ '@/views/Donate.vue')
+    },
 ]
 
 const router = createRouter({

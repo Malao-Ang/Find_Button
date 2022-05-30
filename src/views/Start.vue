@@ -48,7 +48,7 @@ export default {
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Mitr&display=swap");
 body,.group-button{
-    height: 100%;
+    height: 120vh;
     background-color: rgb(18, 16, 19);
 }
 h1 {

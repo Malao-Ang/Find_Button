@@ -13,7 +13,7 @@
 			<h2 class="animate-bounce">🌟 Find the Orion's Belt 🌟</h2>
 		
 		</div>
-		<button v-if="one && two && three" class="btn btn-outline btn-secondary btn-wide mt-12 mr-1.5"><a href="/game/level-10">Go to Next Level</a> </button>
+		<button v-if="one && two && three" class="btn btn-outline btn-secondary btn-wide mt-12 mr-1.5" style="margin-bottom:20px;"><a href="/game/level-10">Go to Next Level</a> </button>
 		<div class="btn-group">
 			<img class="nineparn" src="@/assets/img/ninepran.jpg">
 			<button @click="clickOne" id="one"></button>
@@ -35,13 +35,13 @@ export default {
 	},
 	methods: {
 		clickOne() {
-			return this.one = !this.one
+			return this.one = true
 		},
 		clickTwo() {
-			return this.two = !this.two
+			return this.two = true
 		},
 		clickThree() {
-			return this.three = !this.three
+			return this.three = true
 		}
 
 	}
