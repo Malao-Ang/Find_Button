@@ -68,7 +68,6 @@ body{
 	width:20vw;
 	object-fit: cover;
 	display:block;
-	background:#A2D2FF;
 
 }
 .cloud img:nth-child(2){
