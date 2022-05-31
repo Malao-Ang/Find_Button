@@ -47,7 +47,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 @import url("https://fonts.googleapis.com/css2?family=Mitr&display=swap");
 h1 {
     font-family: "Mitr", sans-serif;
