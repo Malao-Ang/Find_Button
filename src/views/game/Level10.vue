@@ -41,6 +41,7 @@ export default {
 <style scoped>
 body {
 	height: 150vh;
+	background-color:#FF865E;
 }
 
 .description h1 {
