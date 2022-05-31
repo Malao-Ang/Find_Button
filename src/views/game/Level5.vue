@@ -33,10 +33,13 @@ function _0x1c4e(){var _0xc5a9c0=['clientY','106Czxiai','cssText','12022xAHncM',
 h1 {
     font-family: "Mitr", sans-serif;
     font-size: 6vw;
+    color: #fff;
 }
 h2 {
     font-family: "Mitr", sans-serif;
     font-size: 4vw;
+    color: #fff;
+
 }
 body {
     height: 100vh;
