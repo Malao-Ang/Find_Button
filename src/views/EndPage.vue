@@ -147,6 +147,12 @@ body {
 	max-width: 300px;
 	margin:auto;
 	margin-top: 10px;
-	color: rgb(18, 16, 19);
+	color: rgb(33, 29, 34);
+}
+label span{
+	color: #fff;
+}
+.input{
+	color: rgb(72, 72, 72);
 }
 </style>
