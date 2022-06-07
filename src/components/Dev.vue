@@ -12,7 +12,7 @@
         <tr>
             <td>
                 <img
-                    src="https://scontent.fbkk29-1.fna.fbcdn.net/v/t39.30808-6/284313925_1740616196281493_4970167100453928254_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeGBgU8-K4f9DLEvoHRHNxigBtMdpzN776QG0x2nM3vvpCXjzJK7oVw1XC-HinatpZEsuI_zSzk2C5xSkgsHnYBj&_nc_ohc=MqYsJqM_PbgAX_QrlSR&_nc_ht=scontent.fbkk29-1.fna&oh=00_AT-IQJLnKcUAnPJ2Lxn2c5oOkUOxTyTrhodnnkIaT4NFwA&oe=6294E549"
+                    src="@/assets/img/me.jpg"
                 />
             </td>
             <td>
