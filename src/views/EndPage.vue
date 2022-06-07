@@ -153,6 +153,7 @@ label span{
 	color: #fff;
 }
 .input{
-	color: rgb(72, 72, 72);
+	color: rgb(255, 255, 255);
+	background: #3b3c3a;
 }
 </style>
