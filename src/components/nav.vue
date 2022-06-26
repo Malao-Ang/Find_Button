@@ -10,7 +10,7 @@
     <div class="nav">
         <div class="navbar bg-base-100">
             <div class="flex-auto">
-                <a class="btn btn-ghost normal-case text-xl" href="/">Find Button</a>
+                <a class="btn btn-ghost normal-case text-xl" href="/">Home</a>
             </div>
             <div class="flex-none">
                 <ul class="menu menu-horizontal p-0 hover:scale-y-125">

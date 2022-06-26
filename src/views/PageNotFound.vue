@@ -1,4 +1,5 @@
 <template>
+
   <head>
 	  <title>Page Not Found</title>
   </head>

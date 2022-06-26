@@ -1,4 +1,5 @@
 <template>
+
      <head>
         <title>Level 2 🔍</title>
     </head>

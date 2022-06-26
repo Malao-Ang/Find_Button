@@ -1,4 +1,5 @@
 <template>
+
     <head>
         <link
         href="https://cdn.jsdelivr.net/npm/daisyui@2.15.0/dist/full.css"
