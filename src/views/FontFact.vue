@@ -281,6 +281,8 @@ body {
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.8);
     box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.2);
+    margin-left:10px;
+    margin-right:10px;
 }
 
 .title {
